@@ -3,9 +3,6 @@
 import argparse
 import re
 
-#test_gene = "/Users/Sus/bioinformatics/Bi621/PS/ps7-susancollins/test_gene.txt"
-#test_fasta = "/Users/Sus/bioinformatics/Bi621/PS/ps7-susancollins/test_fasta.txt"
-
 def get_args():
 #Takes Ensembl peptide FASTA and table of gene IDs, return longest protein per gene. If multiple longest proteins, returns first one encountered
     parser = argparse.ArgumentParser(description="Defines arguments to run script with")
